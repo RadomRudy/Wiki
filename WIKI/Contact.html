@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="utf-8" />
+    <title>Xiki-Contact</title>
+    <link rel="icon" type="image/jpg" href="X.jpg"/>
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <background="images/img src="abstrat-5719221_960_720.webp"></background>
+    <header>
+        <nav id="block">
+            <ul>
+                <li><a href="Index.html">Acceuil</a>
+                </li>
+            </ul> 
+        <div class="container2">
+            <h1 class="title title-1">Xiki-Contact</h1>
+
+            <form class="form">
+
+            <div class="form__group">
+                <input type="text" class="form__input" id="nom" 
+                placeholder="Votre Nom" required>
+                <label for="nom" class="form__label">
+                    Votre Nom
+                </label>
+            </div>   
+
+            <div class="form__group">
+                <input type="email" class="form__input" id="email"
+                placeholder="Votre Email" required>
+                <label for="email" class="form__label">
+                     Votre Email
+                </label>
+            </div>  
+
+            <div class="form__group">
+                <input type="number" class="form__input" id="age"
+                placeholder="Votre age" required min="16" max="99" step="1">
+                <label for="age" class="form__label">
+                     Votre Age
+                </label>
+            </div>  
+
+                 <div class="form__message">
+                     <label for="" class="form__message-label"></label>
+                     Message complémentaire (facultatif) :
+                     <textarea name="" id= "message" cols="30" rows="10" 
+                     class="form__input message__input"></textarea>
+                 </div>
+                    <div class="submit">
+                    <button class="submitBtn">Envoyer &rarr;</button>
+               
+            </form>
+        </div>    
+
+</body>      

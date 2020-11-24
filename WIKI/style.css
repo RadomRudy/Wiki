@@ -1,0 +1,194 @@
+/*typo*/
+header {
+    font-family: Arial;
+    position: relative; 
+}
+
+/*barre de navigation*/
+header nav {
+    color:#FFFFFF;
+}
+header nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color:rgba(0 ,0, 0, 0.8);
+}
+header nav ul li{
+    margin: 0;
+    padding: 0;
+    /* float: left; */
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+
+    /* background-color:rgba(0 ,0, 0, 0.8); */
+}
+header nav ul li a{
+    display: block;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+header nav ul li a:hover{
+    background-color: rgb(8, 8, 8);
+    opacity: 0.5;
+}
+header nav ul li ul li{
+    display: none;
+}
+header nav ul li:hover ul li{
+    display: block;
+}
+
+/*premiere page*/
+.hdp{
+    display: block; 
+    text-align: center; 
+    align-content: center;
+    margin-top: 10%;
+}
+.articles{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+    flex-wrap: wrap;
+
+}
+#column{
+    flex-direction: column;
+/*body*/
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(avion.jpg);
+}
+/*barre de navigation*/
+.inner-footer{
+    margin: 0px;
+    padding: 0px;
+    background-color: #272727;
+    padding-bottom: 100px;
+}
+.social-links{
+    display: flex;
+}
+.social-links ul{
+    padding: 20px;
+    display: flex;
+    width: 300px;
+    height: 30px;
+    margin: auto;
+}
+.social-items{
+    list-style: none;
+}
+.social-items a{
+    padding: 10px 20px;
+    font-size: 35px;
+    color: #6cccc6;
+    transition: all .25s;
+}
+.quick-links{
+    display: flex;
+    width: 560px;
+    height: 70px;
+    margin: auto;
+}
+.quick-links ul{
+    display: flex;
+}
+.quick-items{
+    list-style: none;
+}
+.quick-items a{
+    text-decoration: none;
+    padding: 0px 15px;
+    font-size: 20px;
+    color: white;
+}
+.quick-items a:hover{
+    color: #6cccc6;
+    transition: all .25s;
+}
+.outer-footer{
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    background-color: #3f3f3f;
+}
+/*barre de recherche*/
+.search-box{
+    left: 50Px;
+    height: 40px;
+    padding: 10px;
+}
+p{
+    text-align: center;
+}
+.container{
+    text-align: center;
+    border-radius: 5px;
+    width: 670px;
+    height: 670px;
+    margin: 10px auto;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    background-color: rgb(190, 184, 184);
+}
+/*contact*/
+.title{
+    color: black;
+}
+.form__group{
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+}
+.form__label{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    font-size: 16px;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: all .3s;
+}
+.form__input{
+    font-size: 20px;
+     font-family: inherit;
+     padding: 0px 0px;
+     border-radius: 1px;
+     border: 20%;
+     border-bottom: 5px  ;
+     width: 50%;
+     transition: all .3s;
+}
+.form__message, .message__input{width: 100%;}
+.submitBtn{
+    display: block;
+    border: none;
+    outline: none;
+    background-color: #6fcffb;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 30px;
+    margin: 20px auto;
+    cursor: pointer;
+    transition: all .3s;
+}
+.container2{
+    text-align: center;
+    border-radius: 5px;
+    width: 680px;
+    height: 670px;
+    margin: 10px auto;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+}
+body{
+  
+}
